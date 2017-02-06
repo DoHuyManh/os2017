@@ -1,0 +1,18 @@
+1. ls -a | grep "list"
+	output: list
+
+2. wc -l /etc/passwd
+	output: 36 /etc/passwd
+
+3. free -t
+              total        used        free      shared  buff/cache   available
+Mem:        4043668     1020240     2156156       64004      867272     2703236
+Swap:       4190204           0     4190204
+Total:      8233872     1020240     6346360
+
+4. cat /proc/cpuinfo | grep "core id"
+	output: core id		: 0
+core id		: 1
+
+5. find /home/dohuymanh/Pictures | grep .jpg
+	output: /home/dohuymanh/Pictures/Wallpapers/174353.jpg
