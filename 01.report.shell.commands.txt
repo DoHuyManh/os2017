@@ -1,77 +1,66 @@
-#echo hello world
+~$ echo hello world
 hello world
 
-#passwd
-Changing password for manh.
+~$ passwd
+Changing password for jackerboy.
 (current) UNIX password: 
 Enter new UNIX password: 
 Retype new UNIX password: 
 passwd: password updated successfully
 
-#date
-Mon Jan 16 22:47:43 ICT 2017
+~$ date
+Thứ ba, 07 Tháng hai năm 2017 19:11:45 ICT
 
-#hostname
-X550LD
+~$ hostname
+jackerboy-Lenovo-G400s
 
-#arch
-x86_64
+~$ arch
+i686
 
-#uname -a
-Linux X550LD 4.4.0-31-generic #50-Ubuntu SMP Wed Jul 13 00:07:12 UTC 2016 x86_64 x86_64 x86_64 GNU/Linux
+~$ uname -a 
+Linux jackerboy-Lenovo-G400s 3.13.0-32-generic #57-Ubuntu SMP Tue Jul 15 03:51:12 UTC 2014 i686 i686 i686 GNU/Linux
 
-#dmesg
-[    6.649977] IPv6: ADDRCONF(NETDEV_CHANGE): enp2s0f1: link becomes ready
-[   10.055516] ACPI Warning: \_SB_.PCI0.RP05.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20150930/nsarguments-95)
-[   10.055910] ACPI: \_SB_.PCI0.RP05.PEGP: failed to evaluate _DSM
-[   10.055919] ACPI Warning: \_SB_.PCI0.RP05.PEGP._DSM: Argument #4 type mismatch - Found [Buffer], ACPI requires [Package] (20150930/nsarguments-95)
-[   10.056177] nouveau 0000:04:00.0: DRM: evicting buffers...
-[   10.088855] nouveau 0000:04:00.0: DRM: waiting for kernel channels to go idle...
-[   10.088925] nouveau 0000:04:00.0: DRM: suspending client object trees...
-[   10.089297] nouveau 0000:04:00.0: DRM: suspending kernel object tree...
+~$ #dmesg
+[   45.774648] type=1400 audit(1486466170.700:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1685 comm="apparmor_parser"
+[   45.775105] type=1400 audit(1486466170.700:70): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=1685 comm="apparmor_parser"
+[ 2443.364804] systemd-hostnamed[3620]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
 
-#uptime
- 22:51:20 up 15 min,  1 user,  load average: 0.23, 0.27, 0.25
+~$ uptime
+ 19:15:19 up 59 min,  2 users,  load average: 0,15, 0,22, 0,33
 
-#who am i
+~$ who am i 
+jackerboy pts/0        2017-02-07 18:57 (:0)
 
-#whoami
-manh
+~$ whoami
+jackerboy
 
-#who
-manh     tty7         2017-01-17 05:35 (:0)
+~$ who
+jackerboy :0           2017-02-07 18:20 (:0)
+jackerboy pts/0        2017-02-07 18:57 (:0)
 
-#id
-uid=1000(manh) gid=1000(manh) groups=1000(manh),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+~$ id
+uid=1000(jackerboy) gid=1000(jackerboy) groups=1000(jackerboy),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),108(lpadmin),124(sambashare)
 
-#last
-manh     tty7         :0               Tue Jan 17 05:35    gone - no logout
-reboot   system boot  4.4.0-31-generic Tue Jan 17 05:35   still running
-manh     tty7         :0               Mon Jan 16 04:54 - down   (-5:-23)
-reboot   system boot  4.4.0-31-generic Mon Jan 16 04:54 - 23:30  (-5:-23)
-manh     tty7         :0               Fri Jan 13 11:55 - down   (00:01)
-manh     tty7         :0               Fri Jan 13 18:25 - 11:55  (-6:-30)
-reboot   system boot  4.4.0-31-generic Fri Jan 13 18:25 - 11:56  (-6:-29)
-manh     tty7         :0               Fri Jan 13 16:13 - crash  (02:12)
-reboot   system boot  4.4.0-31-generic Fri Jan 13 16:12 - 11:56  (-4:-16)
-manh     tty7         :0               Tue Jan 10 11:19 - crash (3+04:53)
-reboot   system boot  4.4.0-31-generic Tue Jan 10 11:18 - 11:56 (3+00:37)
-manh     tty7         :0               Tue Jan 10 10:37 - crash  (00:41)
-reboot   system boot  4.4.0-31-generic Tue Jan 10 10:37 - 11:56 (3+01:19)
-manh     tty7         :0               Tue Jan 10 08:27 - down   (-6:-56)
-reboot   system boot  4.4.0-31-generic Tue Jan 10 08:27 - 01:31  (-6:-56)
-manh     tty7         :0               Mon Jan  9 22:11 - down   (00:11)
-reboot   system boot  4.4.0-31-generic Mon Jan  9 22:11 - 22:23  (00:12
-manh     tty7         :0               Mon Jan  9 22:10 - down   (00:00)
-manh     tty7         :0               Mon Jan  9 21:46 - 22:10  (00:23)
-reboot   system boot  4.4.0-31-generic Mon Jan  9 21:46 - 22:10  (00:24)
+~$ last
+reboot   system boot  3.13.0-32-generi Mon Feb  6 19:57 - 20:35  (00:37)    
+jackerbo pts/1        :0               Mon Feb  6 19:53 - down   (00:03)    
+jackerbo pts/1        :0               Mon Feb  6 19:36 - 19:38  (00:02)    
+jackerbo :0           :0               Tue Feb  7 02:29 - down   (-6:-31)   
+reboot   system boot  3.13.0-32-generi Tue Feb  7 02:28 - 19:57  (-6:-31)   
+wtmp begins Tue Feb  7 02:28:26 2017
 
-wtmp begins Mon Jan  9 21:46:08 2017
+~$ finger
+Login      Name        Tty      Idle  Login Time   Office     Office Phone
+jackerboy  Jackerboy  *:0             Feb  7 18:20 (:0)
+jackerboy  Jackerboy   pts/0          Feb  7 18:57 (:0)
 
-#finger
-finger: command not found
-
-#w
- 22:53:09 up 17 min,  1 user,  load average: 0.03, 0.18, 0.22
+~$ w
+ 19:18:15 up  1:02,  2 users,  load average: 0,28, 0,31, 0,36
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
-manh     tty7     :0               05:35     ?    29.58s  0.17s /sbin/upstart --user
+jackerbo :0       :0               18:20   ?xdm?   3:31   0.15s init --user
+jackerbo pts/0    :0               18:57    7.00s  0.22s  0.00s w
+
+
+
+
+
