@@ -1,0 +1,6 @@
+jackerboy@jackerboy-Lenovo-G400s:~$ ps -e | grep "firefox"
+ 3972 ?        00:01:50 firefox
+jackerboy@jackerboy-Lenovo-G400s:~$ ps -o nlwp 3972
+NLWP
+  48
+
