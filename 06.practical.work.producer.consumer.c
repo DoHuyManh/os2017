@@ -5,6 +5,7 @@
 #define BUFFER_SIZE 10
 
 typedef struct {
+	
 
 	int amount; 
 
