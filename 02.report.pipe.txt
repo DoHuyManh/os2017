@@ -16,3 +16,4 @@ core id		: 1
 
 5. find /home/dohuymanh/Pictures | grep .jpg
 	output: /home/dohuymanh/Pictures/Wallpapers/174353.jpg
+	
