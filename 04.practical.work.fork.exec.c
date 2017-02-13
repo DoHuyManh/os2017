@@ -19,3 +19,5 @@ int main() {
 	else printf("child is %d\n", pid);
 	return 0;
 }
+	
+	
